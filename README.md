@@ -1,8 +1,8 @@
 # ⚡  E-Motobike Updates
 
-Dive into E-Motobike Updates, your all-in-one app to explore the electrifying world of electric motorcycles! Browse curated articles, view stunning bike backgrounds, and dive into in-depth specs for your favorite models. Whether you're a rider, enthusiast, or tech fan, this app brings all the voltage to your fingertips. 🏍️🔋
+Dive into E-Motobike Updates, your all-in-one app to explore the electrifying world of electric motorcycles! Browse curated articles, view stunning bike backgrounds to save for your phone, and dive into in-depth charging specs. Whether you're a rider, enthusiast, or tech fan, this app brings all the voltage to your fingertips. 🏍️🔋
 
-Choose a motorcycle and instantly load detailed info and articles via a powerful API. Save your favorite reads for later, and keep up with the pulse of electric mobility innovation.
+Choose a motorcycle and instantly load detailed info and articles. Save your favorite reads for later, and keep up with the pulse of electric mobility innovation.
 
 <p align="center">
   <img alt="E-BikeUpdates" title="E-BikeUpdates" src="screenshots/ebike2.gif" width=300>
