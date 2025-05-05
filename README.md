@@ -1,52 +1,42 @@
-<h1 align="center"> E-BikeUpdates </h1> <br>
+# ⚡  E-Motobike Updates
 
-<h4 align="center">Updates covering the electric motorcycle industry</h4> <br>
- 
+Dive into E-Motobike Updates, your all-in-one app to explore the electrifying world of electric motorcycles! Browse curated articles, view stunning bike backgrounds, and dive into in-depth specs for your favorite models. Whether you're a rider, enthusiast, or tech fan, this app brings all the voltage to your fingertips. 🏍️🔋
 
-## Intro
-
-This project allows you to select from a list of fully electric motorcycles to see the latest updates from a variety of recent articles. 
+Choose a motorcycle and instantly load detailed info and articles via a powerful API. Save your favorite reads for later, and keep up with the pulse of electric mobility innovation.
 
 <p align="center">
   <img alt="E-BikeUpdates" title="E-BikeUpdates" src="screenshots/ebike2.gif" width=300>
 </p>
 
-## Functions 
-* Load TableView of electric motorcycles. 
-* Pull articles using API for selected motorcycles. 
-* Implement “leadingSwipeActionsConfigurationForRowAt” to favorite articles.
-* Have favorited articles saved with CoreData functions. 
-* Load URL's with external browser. 
-<br>
+## 🚀 Key Features
 
-## Instructions
--After selecting an E-Bike, you'll see a list of articles and can swipe right to favorite an article. You can also long-press to load the article in an external browser. 
+📖 **Discover Electric Motorcycle Articles**  
+Stay current with curated articles pulled via API for each selected bike model.
 
--You can tap on the "Favorites" tab at the bottom of the article list to see the ones you've favorited. A long-press on a favorited article will also load it in a browser. 
+🖼 **View Backgrounds and Specs**  
+Select from electric motorcycle backgrounds to save for your phone and view detailed performance stats—range, top speed, charging time, and more.
 
--The app can be closed, then reloaded, and the favorited articles will remain in their tab. 
+❤️ **Favorite Articles**  
+Save your favorite articles for quick access and future reference.
 
--Tap "Back" on the top left to go back to the full list of electric motorcycles. 
+## 📱 Download for iOS
 
-<br>
+Download on the App Store  
+[![App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/sa/app/e-motobike-updates/id1644648261)
 
-## Submitting article info with a Swipe
+## 📝 License
 
-After implementing the TableView for listed articles, I wanted to add a swipe to favorite option. It was interesting adding this TableView swipe, which had to update the 2nd controller tab for favorites and also persist the article info to CoreData.
+MotoInsight is licensed under the MIT License. See [LICENSE](LICENSE) for full details.
 
-``` swift
-    override func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        let action = UIContextualAction(style: .normal, title: "Favorite") { (action, view, bool) in
-            bool(true)
-            TableViewController.feedListAdded.append(TableViewController.tableText[indexPath.row])
-            TableViewController.urlListAdded.append(TableViewController.urlList[indexPath.row])
-            
-                self.save(title:TableViewController.tableText[indexPath.row], url:TableViewController.urlList[indexPath.row])
-        }
- ```
-<br>
+## 🤝 Contributing
 
-## Article Tips
+We welcome 👩🏾‍💻👨🏾‍💻 additions! If you’d like to help improve or expand this project, feel free to open an issue or submit a pull request.
+
+## 📬 Contact
+
+For feedback, questions, or collaboration opportunities, feel free to message for assistance.
+
+## iOS Swift Tips
 
 Some good articles for tips : <br>
 * <a href="http://www.kaleidosblog.com/swift-core-data-how-to-store-objects" target="_blank">CoreData : How to store objects</a><br>
