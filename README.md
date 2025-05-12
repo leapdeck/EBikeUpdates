@@ -41,5 +41,4 @@ For feedback, questions, or collaboration opportunities, feel free to message fo
 Some good articles for tips : <br>
 * <a href="http://www.kaleidosblog.com/swift-core-data-how-to-store-objects" target="_blank">CoreData : How to store objects</a><br>
 * <a href="https://medium.com/@jacqschweiger/how-to-segue-programmatically-using-delegates-in-swift-e333a9800f5" target="_blank">How to Segue programatically using delegates in Swift</a><br>
-* <a href="https://www.codementor.io/codementorteam/core-data-tutorial-saving-and-fetching-pdphdmh50" target="_blank">CoreData 101 : Saving and Fetching</a><br>
 * <a href="https://www.raywenderlich.com/1067-self-sizing-table-view-cells" target="_blank" >Self-sizing TableView cells</a>
